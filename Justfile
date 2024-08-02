@@ -1,5 +1,5 @@
 test-watch:
-  watchexec -w $HOME/bin/help -w . just test
+  watchexec just test
 
 test:
-  bats .
+  bats test

@@ -1,4 +1,4 @@
 @test "display help" {
-  run help
+  run src/help
   [[ "$output" =~ "help" ]]
 }
